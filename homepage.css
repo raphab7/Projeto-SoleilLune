@@ -27,33 +27,9 @@
     padding-right: 5px;
     border-right: 1px solid black;
 }
-  header{
-    background-color: #ffffff;
-    color: #fff;
-    height: 80px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 0 20px;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
   
   nav li {
-    margin-right: 20px;
+    margin-right: 90px;
   }
   
   nav a {
@@ -63,7 +39,6 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 5px;
-    cursor: pointer;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   }
   nav a:hover::after {
@@ -80,15 +55,7 @@
     max-width: 60px;
     position: relative;
   }
-  
-  .cart a {
-    background-color: #fff;
-    color: #111;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 500px;
-  }
+
   .search-form {
     position: relative;
     display: flex;
@@ -100,8 +67,9 @@
     border: 1px solid #ddd;
     border-radius: 30px;
     padding: 10px 40px;
-    width: 300px;
+    width: 400px;
     font-size: 16px;
+    margin-left: 400px;
   }
   
   .search-form button[type="submit"] {
@@ -114,7 +82,7 @@
     font-size: 16px;
     padding: 15px 20px;
     margin-left: -50px;
-    border-radius: 30px;
+    border-radius: 40px;
   }
   
   .search-form button[type="submit"] {
@@ -127,8 +95,9 @@
     width: 30px;
     height: 30px;
     border: none;
-    cursor: pointer;
     margin-right: 15px;
+    margin-left: 20px;
+    min-width: 30px;
   }
   .cart-button{
     background-image: url(carrinho-carrinho.png);
@@ -137,9 +106,9 @@
     width: 30px;
     height: 30px;
     border: none;
-    cursor: pointer;
     margin-right: 500px;
     max-width: 200px;
+    min-width: 30px;
 }
 footer {
   background-color: #000000;

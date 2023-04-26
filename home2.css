@@ -12,15 +12,12 @@
 }
 .fretegratis p {
     padding-right: 5px;
-}
-.fretegratis p:last-child {
-    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
 }
 .fretegratis img {
     margin-right:10px;
     width: 32px;
     height: 32px;
-    margin: auto;
     padding-right: 5px;
 }
 
