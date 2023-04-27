@@ -1,12 +1,4 @@
 
-  body {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Lexend Deca', sans-serif;
-    font-family: 'Playfair Display', serif;
-    background-color: #F0F0F5;
-}
   .links {
     max-width: 100%;
     padding-bottom:20px;
@@ -32,7 +24,7 @@
     margin-right: 90px;
   }
   
-  nav a {
+  .nav-link {
     text-decoration: none;
     color: #000000;
     font-size: 14px;
@@ -50,12 +42,6 @@
   height: 3px;
   background-color: rgb(0, 0, 0);
   }
-  
-  .logo {
-    max-width: 60px;
-    position: relative;
-  }
-
   .search-form {
     position: relative;
     display: flex;
@@ -151,15 +137,6 @@ footer ul li a:hover {
   margin-left: 00px;
   color: #ffffff;
 }
-
-.column1{
-  flex-basis: 0;
-  flex-grow: 1;
-  padding: 10px;
-  box-sizing: border-box;
-  text-align: center;
-  width: 50%;
-}
 hr {
 border: none;
   background-color: rgb(255, 255, 255);
@@ -189,6 +166,8 @@ padding-left: 15px;
   max-width: 30px;
   position: relative;
 } 
-  
+.navbar-brand {
+margin-left: 20px;
+}
   
   
