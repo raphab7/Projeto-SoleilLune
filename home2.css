@@ -9,15 +9,15 @@
     margin-right: 15px;
     display: flex;
     margin: auto;
+     text-align: center;
 }
 .fretegratis p {
-    padding-right: 5px;
+    padding-right: 10px;
     text-align: center;
 }
 .fretegratis img {
-    margin-right:10px;
+    margin-right: 5px;
     width: 32px;
     height: 32px;
-    padding-right: 5px;
 }
 
